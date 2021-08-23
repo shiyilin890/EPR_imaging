@@ -1,0 +1,24 @@
+Center Field
+Rapid-scan width
+Cycles per Trigger
+Scan Frequency (Hz)
+Gradient (G/cm)
+Scan 1 name:
+Scan 2 name:
+Spectrum name
+Field Step Scan Width (G)
+Field Step Size (G)
+Maximum Gradient (G/cm)
+Gradient Step Size (G/cm)
+Gradient section 1, G
+Gradient section 2, G
+Average 1
+Average 2
+Average 3
+Main Magnet Coil Constant (G/A)
+Rapid Scan Coil Constant (G/A)
+Z Gradient Coil Constant (G/A)
+number of averages
+number of on-board averages
+time base (ns)
+number of points

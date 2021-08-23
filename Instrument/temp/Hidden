@@ -1,0 +1,2807 @@
+DESCRIPTION FOR EXPERIMENT:	AcqHidden
+
+DEVICE cwBridge
+
+  AFCMode          AFC Mode
+                   auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: Off 
+                   list of discrete values:
+                     Off, On
+
+  AFCModulation    AFC Modulation
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 1, max: 100, current value: 50 %
+
+  AFCState         AFC
+                   read-only, auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value:   
+                   list of discrete values:
+                      , No AFC
+
+  AFCTimeConst     AFC Time Constant
+                   auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: Low 
+                   list of discrete values:
+                     Low, Medium Low, Medium High, High
+
+  AFC_AC_Gain      AFC AC Gain
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 1, max: 100, current value: 50 %
+
+  AFC_DC_Gain      AFC DC Gain
+                   auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: 1 
+                   list of discrete values:
+                     1/10, 1
+
+  Abs1Data         Abs1Data
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 1, sizes: 256, SPL Keyword: -
+                   min: 0, max: 255, current value: - 
+
+  Abs1Name         Abs1Name
+                   read-only, auxiliary
+                   String type, # of dim.: 0, SPL Keyword: -
+                   current value:  
+
+  BrConnStatus     Bridge Connection Status
+                   read-only, auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: OK 
+                   list of discrete values:
+                     Not OK, OK,  Failed
+
+  BridgeCalib      BridgeCalib
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 1000, current value: 100.0 
+
+  CWBridgeType     CW Bridge Type
+                   read-only, auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: Standard 
+                   list of discrete values:
+                     Standard, Dispersion
+
+  CWUpgMWAmp       MW Amplifier
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: True 
+                   list of discrete values:
+                     False, True
+
+  CWUpgrade        CW Upgrade
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  CalibState       Calibration
+                   read-only, auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: Uncalibrated 
+                   list of discrete values:
+                     Uncalibrated, Calibrated
+
+  Data             Data
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 1, sizes: 256, SPL Keyword: -
+                   min: 0, max: 255, current value: - 
+
+  Data1            Data1
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 1, sizes: 256, SPL Keyword: -
+                   min: 0, max: 255, current value: - 
+
+  DataRange        DataRange
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 1, sizes: 2, SPL Keyword: -
+                   min: -1.79769e+308, max: 1.79769e+308, current value: 0.0000000000000000e+00, 2.5600000000000000e+02 
+
+  DiodeCurrent     Diode Current
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 400, current value: 200.00 uA
+
+  Dispersion       Dispersion
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  DualTrace        DualTrace
+                   read-only, auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  DualTraceEnab    Dual Trace
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  EMBType          EMB Bridge Type
+                   read-only, auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: LowCostX 
+                   list of discrete values:
+                     StandardX, LowCostX, SuperX, StandardQ
+
+  EWSMBC           EWS MBC
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  EmbBridge        EMB Bridge
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: True 
+                   list of discrete values:
+                     False, True
+
+  ExtStabPresent   External Stabilizer Present
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  FineAFC          AFC Fine Adjustment
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: -2000, max: 2000, current value: 0 
+
+  Frequency        Frequency
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 4095, current value: 0 
+
+  IrisDown         Iris
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  IrisPreadjust    Autotune Iris Preadjustment
+                   auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: Off 
+                   list of discrete values:
+                     Off, On
+
+  IrisPresent      Iris Motor Present
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: True 
+                   list of discrete values:
+                     False, True
+
+  IrisState        Iris Limits
+                   read-only, auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  IrisUp           Iris
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  LevelState       Leveller
+                   read-only, auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: Unlevelled 
+                   list of discrete values:
+                     Unlevelled, Levelled
+
+  LockOffset       Lock Offset
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: -100, max: 100, current value: 0.00 %
+
+  LockPhase        Lock Phase
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 4095, current value: 0 
+
+  LogScaleEnab     Log. Scale
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  MMMaxCWTmLvl     Maximum CW TM Level
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 100, current value: 72.000 
+
+  MMMaxPlsTmLvl    Maximum Pulse TM Level
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 100, current value: 72.000 
+
+  MMWaveLOFreq     LO Frequency
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 1, max: 50, current value: 26.880000 GHz
+
+  ModeZoom         Mode Zoom Factor
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 1, max: 8, current value: 1 
+                   list of discrete values:
+                     1, 2, 4, 8
+
+  OpMode           Operation Mode
+                   auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: Stand By 
+                   list of discrete values:
+                     Stand By, Tune, Operate
+
+  OpModeMon        Operation Mode
+                   read-only, auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: Stand By 
+                   list of discrete values:
+                     Stand By, Tune, Operate
+
+  PLMode           PL Mode
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  Power            Power
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 1000, current value: 0.001581 mW
+
+  PowerAt0DB       Power at 0 dB
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 1000, current value: 0.500 mW
+
+  PowerAtten       Attenuation
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 60, current value: 25.0 dB
+
+  PowerAttenMon    Attenuation
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 60, current value: 25.0 dB
+
+  PowerMon         Power
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 1000, current value: 0.001581 mW
+
+  QValue           Q-Value
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 4.29497e+09, current value: 0 
+
+  RealDataName     RealDataName
+                   read-only, auxiliary
+                   String type, # of dim.: 0, SPL Keyword: -
+                   current value:  
+
+  RefArm           Reference Arm
+                   auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: On 
+                   list of discrete values:
+                     On, Off
+
+  RunIrisDown      Iris Run Down
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  SignalBias       Bias
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 4095, current value: 0 
+
+  SignalPhase      Signal Phase
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 4095, current value: 0 
+
+  SignalPhaseMon   Signal Phase
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 100, current value: 0.00 
+
+  Tune             Auto Tuning
+                   auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: Stop 
+                   list of discrete values:
+                     Up, Down, Fine, Stop
+
+  TuneState        Tuning State
+                   read-only, auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: L-Band 
+                   list of discrete values:
+                     L-Band, Frequency, Phase, Bias, AFC, Iris, Upper Iris Limit
+                     Lower Iris Limit
+
+DEVICE ffLock
+
+  Abs1Data         Abs1Data
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 1, sizes: 1024, SPL Keyword: -
+                   min: -3.40282e+38, max: 3.40282e+38, current value: - 
+
+  Abs1Name         Abs1Name
+                   read-only, auxiliary
+                   String type, # of dim.: 0, SPL Keyword: -
+                   current value:  
+
+  Attenuator       Attenuator
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 255, current value: 26 
+
+  Data             Data
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 1, sizes: 1024, SPL Keyword: -
+                   min: 0, max: 4.29497e+09, current value: - 
+
+  Data1            Data1
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 4.29497e+09, current value: 0 
+
+  DataRange        DataRange
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 1, sizes: 2, SPL Keyword: -
+                   min: -1.79769e+308, max: 1.79769e+308, current value: 0.0000000000000000e+00, 5.1200000000000000e+02 
+
+  DialogPanelLock  DialogPanelLock
+                   read-only, auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  DualTrace        DualTrace
+                   read-only, auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  FFNbAccum        Number of Accumulations
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 1, max: 200, current value: 3 
+
+  FFOffset         FF Lock Offset
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: -10000, max: 10000, current value: 0.000 
+
+  FFProp           Proportional Band
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 1000, current value: 250.00 1/1000
+
+  FFTMPresent      FFLock / Teslameter Present
+                   read-only, auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: None 
+                   list of discrete values:
+                     None, ffPresent, tmPresent, fftmPresent, mhPresent
+                     ffmhPresent
+
+  GFactorMon       g Factor
+                   read-only, auxiliary
+                   String type, # of dim.: 0, SPL Keyword: -
+                   current value:    
+
+  GmAbscissaScale  Abscissa Stretching
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 1, max: 1000, current value: 1.00 
+
+  GmAcqTime        Acquisition Time
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0.01, max: 20, current value: 1.00 ms
+
+  GmAutoMode       Automatic Pulse Lengths
+                   read-only, auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  GmAutoScale        Autoscale
+                   read-only, auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  GmAutoStretch      Autostretch
+                   read-only, auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  GmAuxConf        Auxiliary Configuration
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 1000, current value: 0.00 
+
+  GmContSpec       Get Continuous Spectrum
+                   read-only, auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  GmDeadTime       Dead Time
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0.01, max: 100, current value: 10.00 ms
+
+  GmDefField       Default Field
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 450, max: 100000, current value: 3480.00 G
+
+  GmEchoAllowed    Echo Experiment Allowed
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  GmEchoPlsLen     Echo Pulse Length
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 1, max: 100, current value: 15.00 us
+
+  GmFFTLen         FFT Length
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 128, max: 32768, current value: 2048 
+                   list of discrete values:
+                     256, 512, 1024, 2048, 4096, 8192, 16384, 32768
+
+  GmFieldMon       Gaussmeter
+                   read-only, auxiliary
+                   String type, # of dim.: 0, SPL Keyword: -
+                   current value:   G
+
+  GmFilterFWHM     Echo Filter FWHM
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 10, max: 1000, current value: 200.00 us
+
+  GmGain           Receiver Gain
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 40, max: 114, current value: 75 
+
+  GmHomogenityMon  Homogeneity
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 40000, current value: 1 
+
+  GmLockResol      Lock Resolution
+                   read-only, auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: 0.1 G
+                   list of discrete values:
+                     0.1, 0.01, 0.001
+
+  GmLowerLimit     Lower Field Search Limit
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 450, max: 100000, current value: 3000.00 G
+
+  GmModulation     Modulation
+                   read-only, auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: Positive 
+                   list of discrete values:
+                     Off, Last Direction, Positive, Negative
+
+  GmNbAccum        Number of Accumulations
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 1, max: 10000, current value: 1 
+
+  GmOpMode         Operation Mode
+                   read-only, auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: Search 
+                   list of discrete values:
+                     Flash, Search, AltSearch
+
+  GmPeakFilter     Peak Filtering
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 2, current value: 1 
+
+  GmPlsDist        Echo Pulse Distance
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 1, max: 10000, current value: 100.00 us
+
+  GmPlsLen         HF Pulse Length
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 1, max: 100, current value: 5.00 us
+
+  GmPlsSeq         Pulse Sequence
+                   auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: FID (1p) 
+                   list of discrete values:
+                     FID (1p), ECHO (2p), ECHO (FID suppressed)
+
+  GmProbeHead      Probe Head No.
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 1, max: 1e+08, current value: 1.00 
+
+  GmRecDelay       Recycle Delay
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 1, max: 10000, current value: 1000.00 ms
+
+  GmSTLevel        Search Track Level
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0.001, max: 10000, current value: 500.00 
+
+  GmSearchDir      Field Search Direction
+                   read-only, auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: Up 
+                   list of discrete values:
+                     Up, Stop Search, Down
+
+  GmSignal2Noise   min. signal/noise
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 1, max: 100, current value: 3.00 
+
+  GmSpecScale      Ordinate Scale
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0.0001, max: 10000, current value: 1.00 
+
+  GmSpecType       Spectrum Type
+                   read-only, auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: FID 
+                   list of discrete values:
+                     FID, FFT
+
+  GmStepWidth      Step Width
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 1, max: 50, current value: 10 G
+
+  GmTestPeak       Test Peak
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 30000, current value: 0 
+
+  GmType           Teslameter Type
+                   read-only, auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: None 
+                   list of discrete values:
+                     None, ER035M, ER036TM, Allegro Teslameter
+
+  GmUpperLimit     Upper Field Search Limit
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 450, max: 100000, current value: 4000.00 G
+
+  GmUsed           Use Teslameter
+                   read-only, auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  GmWaitTime       Field Settling Time
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0.1, max: 20, current value: 1.00 
+
+  LockMode         Lock In
+                   read-only, auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  LockModeMon      Lock Status
+                   read-only, auxiliary
+                   String type, # of dim.: 0, SPL Keyword: -
+                   current value:   G
+
+  MHallUsed        Use Field Measuring Hall
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  MarkerFieldMon   Marker Field
+                   read-only, auxiliary
+                   String type, # of dim.: 0, SPL Keyword: -
+                   current value:   G
+
+  MarkerMode       Marker Mode
+                   read-only, auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  MeasuringHall    MeasuringHall
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  RealDataName     RealDataName
+                   read-only, auxiliary
+                   String type, # of dim.: 0, SPL Keyword: -
+                   current value:  
+
+  Type             Type
+                   read-only, auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: None 
+                   list of discrete values:
+                     None, ER033M, ER033S
+
+DEVICE freqCounter
+
+  FrequencyMon     Frequency
+                   read-only
+                   Numeric type, # of dim.: 0, SPL Keyword: MWFQ
+                   min: 0, max: 500, current value: 0.0 GHz
+
+  QMonitBridge     Bridge Monitoring
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: On 
+                   list of discrete values:
+                     Off, On
+
+DEVICE ftBridge
+
+  Abs1Data         Abs1Data
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 1, sizes: 8, SPL Keyword: -
+                   min: 0, max: 255, current value: - 
+
+  Abs1Name         Abs1Name
+                   read-only, auxiliary
+                   String type, # of dim.: 0, SPL Keyword: -
+                   current value:  
+
+  Data             Data
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 1, sizes: 8, SPL Keyword: -
+                   min: 0, max: 255, current value: - 
+
+  Data1            Data1
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 1, sizes: 8, SPL Keyword: -
+                   min: 0, max: 255, current value: - 
+
+  DataRange        DataRange
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 1, sizes: 2, SPL Keyword: -
+                   min: -1.79769e+308, max: 1.79769e+308, current value: 0.0000000000000000e+00, 2.5600000000000000e+02 
+
+  DevOption        FT Bridge Device Option
+                   auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: None 
+                   list of discrete values:
+                     None
+
+  RealDataName     RealDataName
+                   read-only, auxiliary
+                   String type, # of dim.: 0, SPL Keyword: -
+                   current value:  
+
+DEVICE gTempCtrl
+
+  AcqWaitTime      Temp Settling Time
+                   read-only
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 3.6e+06, current value: 5.0 s
+
+  AirStatus        VTU Air Supply
+                   auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: Off 
+                   list of discrete values:
+                     Off, On
+
+  AirStatusMon     Warm Air Status
+                   read-only, auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: Off 
+                   list of discrete values:
+                     Off, On
+
+  AutoTune         PID Tuning
+                   auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: No Tuning 
+                   list of discrete values:
+                     No Tuning,  Tune
+
+  AutoTuneMon      PID Autotune
+                   read-only, auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: No Tuning 
+                   list of discrete values:
+                     No Tuning,  Tune 
+
+  Derivative       Derivative Time
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 100, current value: 0.00 s
+
+  DerivativeMon    Dervative Time
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 100, current value: 0.00 s
+
+  EvapStatus       LN2 Evaporator Heater
+                   auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: Off 
+                   list of discrete values:
+                     Off, On
+
+  EvapStatusMon    Evaporator Heater
+                   read-only, auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: Off 
+                   list of discrete values:
+                     Off, On
+
+  GasCtrl          Gas Flow Control
+                   auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: Auto 
+                   list of discrete values:
+                     Manual, Auto
+
+  GasFlow          Gas Flow [l/h]
+                   auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: Min 
+                   list of discrete values:
+                     Min, 135, 270, 400, 535, 670, 800, 935, 1070, 1200
+                     1335, 1470, 1600, 1735, 1870, 2000
+
+  GasFlowMon       Gas Flow
+                   read-only, auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: Failure 
+                   list of discrete values:
+                     Failure, OK
+
+  HeaterCtrl       Heater Control
+                   auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: Auto 
+                   list of discrete values:
+                     Manual, Auto
+
+  HeaterPowerMon   Current Heater Power
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 100, current value: 0.0 %
+
+  HeaterStatus     Heater
+                   auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: Off 
+                   list of discrete values:
+                     Off, On
+
+  HeaterstatusMon  Heater Status
+                   read-only, auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: Off 
+                   list of discrete values:
+                     Off, On
+
+  ITCGasFlow       Gas Flow
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 99.9, current value: 0.00 arb. units
+
+  Integral         Integral Time
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 100, current value: 14.00 s
+
+  IntegralMon      Integral Time
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 100, current value: 0.00 s
+
+  ItcGasFlowMon    Current Gas Flow
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 100, current value: 0.00 arb. units
+
+  ItcHeaterPwr     Heater Power
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 100, current value: 0.00 % of limit
+
+  LN2Power         LN2 Evaporator Heater Power
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 100, current value: 0.00 %
+
+  LN2PowerMon      Current LN2 Power
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 100, current value: 0.00 %
+
+  LN2TankMon       LN2 Tank Status
+                   read-only, auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: Empty 
+                   list of discrete values:
+                     Empty, Refill, Full, Not Connected
+
+  LocalRemote      ITC Operation Mode
+                   auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: LOCAL 
+                   list of discrete values:
+                     LOCAL, REMOTE
+
+  OverHeatMon      Probe Head Heater
+                   read-only, auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: OK 
+                   list of discrete values:
+                     OK, Overheating
+
+  Proportional     Proportional Band
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 100, current value: 36.00 %
+
+  ProportionalMon  Proportional Band
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 100, current value: 0.00 %
+
+  PwrLimit         Heater Power Limit
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 100, current value: 50.00 %
+
+  TempUsage        Temperature taken from
+                   read-only, auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: Main Panel 
+                   list of discrete values:
+                     Main Panel,  Experiment
+
+  Temperature      Temperature
+                   read-only
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 1273, current value: 295.00 K
+
+  TemperatureMon   Current Temperature
+                   read-only, auxiliary
+                   String type, # of dim.: 0, SPL Keyword: -
+                   current value:   K
+
+  Tolerance        Tolerance
+                   read-only
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 100, current value: 1.00 K
+
+  Type             Type
+                   read-only, auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: None 
+                   list of discrete values:
+                     None, ER4111VT, ER4121VT, ER4131VT, VTU, ITC502, ITC503
+                     ITC503 RS-232, MercuryITC
+
+  UnlockPID        Unlock PID Settings
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  VTUsed           Use VTU
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  VtuPIDMatrixMon  Results
+                   read-only, auxiliary
+                   String type, # of dim.: 2, sizes: 6, 7, SPL Keyword: -
+                   current value: - 
+
+  VtuPIDResultMon  Result
+                   read-only, auxiliary
+                   String type, # of dim.: 2, sizes: 6, 1, SPL Keyword: -
+                   current value: - 
+
+  VtuPIDSetDelete  Delete
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  VtuPIDSetLoad    Load
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  VtuPIDSetName    VTU PID Data Set
+                   read-only, auxiliary
+                   String type, # of dim.: 0, SPL Keyword: -
+                   current value:  
+                   list of discrete values:
+                     <none>
+
+  VtuPIDSetSave    Save
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  VtuPIDSetUsed    USE PID Data
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: True 
+                   list of discrete values:
+                     False, True
+
+  VtuRSPort        VTU RS232 Port
+                   auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: /dev/ttyS0 
+                   list of discrete values:
+                     /dev/ttyS0, /dev/ttyS1, /dev/ttyS2, /dev/ttyS3
+
+DEVICE sctCalib
+
+  AfcAcGainPar     AFC AC Gain
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 1024, current value: 60 
+
+  AfcAdjustPar     AFC Fine Adjustment
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: -2000, max: 2000, current value: 0 
+
+  AfcDcGainPar     AFC DC Gain
+                   read-only, auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: 1/10 
+                   list of discrete values:
+                     1/10, 1
+
+  AfcModPar        AFC Modulation
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 1024, current value: 60 
+
+  AfcTimeConstPar  AFC Time Constant
+                   read-only, auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: Medium Low 
+                   list of discrete values:
+                     Low, Medium Low, Medium High, High
+
+  CalAFCTrap       AFC Trap Filter
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: True 
+                   list of discrete values:
+                     False, True
+
+  CalHighPass      High Pass Filter
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: True 
+                   list of discrete values:
+                     False, True
+
+  CalResonator     Resonator
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 1, max: 2, current value: 1 
+
+  CalibData        Results
+                   read-only, auxiliary
+                   String type, # of dim.: 2, sizes: 9, 7, SPL Keyword: -
+                   current value: - 
+
+  CalibDbDelete    Delete Data Set
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  CalibName        Calibration Data Set
+                   auxiliary
+                   String type, # of dim.: 0, SPL Keyword: -
+                   current value:  
+                   list of discrete values:
+                     <none>
+
+  ConvFact         Conversion Fctr.
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: -1.79769e+308, max: 1.79769e+308, current value: 1e-13 
+
+  FreqDewar        Freq. Dewar
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 1, max: 100, current value: 9.30 GHz
+
+  FreqEmpty        Freq. Empty
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 1, max: 100, current value: 9.85 GHz
+
+  PolyCofs         Polynom Coefficiants
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 2, sizes: 3, 9, SPL Keyword: -
+                   min: -1.79769e+308, max: 1.79769e+308, current value: - 
+
+  RFCalSetName     RF Calibration Data Set
+                   auxiliary
+                   String type, # of dim.: 0, SPL Keyword: -
+                   current value:  
+                   list of discrete values:
+                     <none>
+
+  RFCalibData      Results
+                   read-only, auxiliary
+                   String type, # of dim.: 2, sizes: 3, 7, SPL Keyword: -
+                   current value: - 
+
+  RFCalibDbDelete  Delete Data Set
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  ResCenter        Resonator Center
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: -1.79769e+308, max: 1.79769e+308, current value: 10 mm
+
+  ResLength        Resonator Length
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: -1.79769e+308, max: 1.79769e+308, current value: 10 mm
+
+  ResetResPrps     From Resonator
+                   auxiliary
+                   String type, # of dim.: 0, SPL Keyword: -
+                   current value:  
+                   list of discrete values:
+                     EMXnano, ER4102ST, ER4103TM, ER4104ORR, ER4119HS, ER4122SHQE
+                     ER4123D, NONE
+
+  ResonatorCheck   To Resonator
+                   auxiliary
+                   String type, # of dim.: 0, SPL Keyword: -
+                   current value:  
+                   list of discrete values:
+                     EMXnano, ER4102ST, ER4103TM, ER4104ORR, ER4119HS, ER4122SHQE
+                     ER4123D, NONE
+
+  ResonatorType    Resonator Type
+                   auxiliary
+                   String type, # of dim.: 0, SPL Keyword: -
+                   current value:  
+                   list of discrete values:
+                     EMXnano, ER4102ST, ER4103TM, ER4104ORR, ER4119HS, ER4122SHQE
+                     ER4123D, NONE, <none>
+
+  SaveAfcPar       Save AFC values
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  SaveResPrpsPar   Save Values To Resonator
+                   read-only, auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  SctRevision      SCT Revision
+                   auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: SCT 
+                   list of discrete values:
+                     SCT, DSC2, Allegro
+
+  ShowResPrpsPar   Load Values From Resonator
+                   read-only, auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  Void             Void
+                   auxiliary
+                   String type, # of dim.: 0, SPL Keyword: -
+                   current value:  
+
+DEVICE specJet
+
+  Abs1Data         Abs1Data
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 1, sizes: 256, SPL Keyword: -
+                   min: -3.40282e+38, max: 3.40282e+38, current value: - ns
+
+  Abs1Name         Abs1Name
+                   read-only, auxiliary
+                   String type, # of dim.: 0, SPL Keyword: -
+                   current value: Time 
+
+  AverageStart     Stop
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: True 
+                   list of discrete values:
+                     False, True
+
+  AveragesDoneMon  Averages Done
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 4.29497e+09, current value: 3072 
+
+  BaselineCorr     Baseline Correction
+                   auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: 0th Order 
+                   list of discrete values:
+                     Off, 0th Order, 1st Order, 2nd Order, 3rd Order
+
+  BaselinePoints   Trailing Points Used
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 32, max: 65536, current value: 32 
+                   list of discrete values:
+                     32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384
+                     32768, 65536
+
+  Ch1Select        Channel 1
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: True 
+                   list of discrete values:
+                     False, True
+
+  Ch1SigOffset     Channel 1 Offset
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 255, current value: 128 
+
+  Ch2Select        Channel 2
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: True 
+                   list of discrete values:
+                     False, True
+
+  Ch2SigOffset     Channel 2 Offset
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 255, current value: 128 
+
+  ClockSource      Clock Source
+                   auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: Internal 
+                   list of discrete values:
+                     Internal, External, Ext. Ref. 10 MHz
+
+  Data             Data
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 1, sizes: 256, SPL Keyword: -
+                   min: -2.14748e+09, max: 2.14748e+09, current value: - 
+
+  Data1            Data1
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 1, sizes: 256, SPL Keyword: -
+                   min: -2.14748e+09, max: 2.14748e+09, current value: - 
+
+  DataRange        DataRange
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 1, sizes: 2, SPL Keyword: -
+                   min: -1.79769e+308, max: 1.79769e+308, current value: -5.2428800000000000e+05, 1.0485760000000000e+06 
+
+  DualTrace        TrDualTrace
+                   read-only, auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: True 
+                   list of discrete values:
+                     False, True
+
+  ExtClockRate     External Clock Rate
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 20, max: 2000, current value: 2000.0 MHz
+
+  FFTEnable        Enable FFT
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  FullScale        FS
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  HammingWindow    Hamming Window
+                   auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: Off 
+                   list of discrete values:
+                     Off, On
+
+  IntgDisplay      INTG
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  Magnitude        Magnitude
+                   auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: Off 
+                   list of discrete values:
+                     Off, On
+
+  NOnBoardAvgs     On-Board Averages
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 1, max: 65535, current value: 1024 
+
+  NoOfAverages     Number of Averages
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 1, max: 6.71078e+07, current value: 4096 
+
+  NoOfPoints       No. of Points
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 32, max: 65536, current value: 8192 
+                   list of discrete values:
+                     32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384
+                     32768, 65536
+
+  RealDataName     RealDataName
+                   read-only, auxiliary
+                   String type, # of dim.: 0, SPL Keyword: -
+                   current value:  
+
+  RepetitiveMode   Repetitive Mode
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: True 
+                   list of discrete values:
+                     False, True
+
+  ScaleDivideBy2   * 2
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  ScaleFactor      ScaleFactor
+                   read-only, auxiliary
+                   String type, # of dim.: 0, SPL Keyword: -
+                   current value: * 1 
+
+  ScaleTimes2      / 2
+                   read-only, auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  ScanTime         Scan Time
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0.032, max: 6.5536e+08, current value: 102.400 us
+
+  Sensitivity      Input Sensitivity
+                   auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: 0.500 
+                   list of discrete values:
+                     0.050, 0.100, 0.200, 0.500, 1.000, 2.000, 5.000
+
+  StartDelay       Start Delay
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 65535, current value: 16 
+
+  TimeBase         Time Base
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0.5, max: 1e+07, current value: 100.000 ns
+
+  TriggerLevel     Trigger Level
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 100, current value: 20 
+
+  TriggerMode      Trigger Mode
+                   auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: Normal 
+                   list of discrete values:
+                     Auto, Normal
+
+  TriggerSlope     Trigger Slope
+                   auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: Pos 
+                   list of discrete values:
+                     Pos, Neg
+
+  TriggerSource    Trigger Source
+                   auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: External 
+                   list of discrete values:
+                     Channel 1, Channel 2, External
+
+  ZeroFilling      Zero Filling
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 8192, max: 65536, current value: 8192 
+                   list of discrete values:
+                     32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384
+                     32768, 65536
+
+DEVICE sysConf
+
+  AllowAMMOD       AM Modulation allowed
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: True 
+                   list of discrete values:
+                     False, True
+
+  ApplyCfg         Apply
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  BrHasAWGMode     Bridge AWG Mode
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: True 
+                   list of discrete values:
+                     False, True
+
+  BridgeCalibPar   Bridge Calibration at 9.85 GHz
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 1000, current value: 100.0 
+
+  CWBrUseCalib     Use AFC Calibration
+                   read-only, auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  CWCtrlLock       CW Tune Panel Lock
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  CWFieldModOff    Field Modulation Off
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: True 
+                   list of discrete values:
+                     False, True
+
+  CarrAValAWG      Amplitude
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 100, current value: 50.00 %
+
+  CarrAmplAWG      Upconverter Amplitude
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 10000, current value: 5000 
+
+  CarrPValAWG      Phase
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 100, current value: 50.00 %
+
+  CarrPhaseAWG     Upconverter Phase
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 10000, current value: 5000 
+
+  ChIoffValAWG     I Channel
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: -100, max: 100, current value: 0.00 %
+
+  ChIoffsetAWG     ChIoffsetAWG
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 20000, current value: 10000 
+
+  ChQoffValAWG     Q Channel
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: -100, max: 100, current value: 0.00 %
+
+  ChQoffsetAWG     ChQoffsetAWG
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 20000, current value: 10000 
+
+  ChkConZeroCurr   Zero Current of Magnet Power Supply
+                   read-only, auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  ChkCtrSwBackRTC  Magnet Controller Switch on RTC
+                   read-only, auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  ChkCtrSwOnMain   Magnet Controller Switch on Main Magnet
+                   read-only, auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  ChkCtrSwOnRTC    Magnet Controller Switch on RTC
+                   read-only, auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  ChkDisZeroCurr   Zero Current of Magnet Power Supply
+                   read-only, auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  ChkHeLvl         Helium Level Far Above Minimum
+                   read-only, auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  ChkHeatSlSwOnM   Magnet Controller Heater Select Switch on M
+                   read-only, auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  ChkLeadsIn       Main Coil Leads Inserted into Magnet
+                   read-only, auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  ChkLeadsRem      Main Coil Leads Removed from Magnet
+                   read-only, auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  ChkPerstCurr     Energize Leads
+                   read-only, auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  ChkShimRodIn     Shim Rod Inserted into Magnet
+                   read-only, auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  ChkShimRodRem    Shim Rod Removed from Magnet
+                   read-only, auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  ChkSwHeatAct     Activate Switch Heater
+                   read-only, auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  ChkSwHeatConf    Switch Heater Confirmed
+                   read-only, auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  ChkSwHeatDeact   Deactivate Switch Heater
+                   read-only, auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  ChkVacuumTight   Magnet Vacuum Tight
+                   read-only, auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  ConfPerstField   Unlock Persistent Field
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  CryoFreeMagnet   Cryogen Magnet
+                   auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: Default 
+                   list of discrete values:
+                     Default, UltraShieldPlus400, 12T CF
+
+  DigiOscType      Type
+                   auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: Acqiris 
+                   list of discrete values:
+                     None, SpecJet, Acqiris
+
+  EIFAttRF1Cal     RF1 Attenuator Calibration
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 10000, current value: 624.00 
+
+  EIFAttRF1SpTrip  Special Triple RF1 Att.
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 80, current value: 11.000 dB
+
+  EIFAttRF2Cal     RF2 Attenuator Calibration
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 10000, current value: 624.00 
+
+  EIFAttRF2SpTrip  Special Triple RF2 Att.
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 80, current value: 5.000 dB
+
+  EIFAttRFSum      RF Sum Attenuator
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 80, current value: 10.000 dB
+
+  EIFAttRFSumCal   RF Sum Attenuator Calibration
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 10000, current value: 624.00 
+
+  EIFClockOscCal   Clock Oscillator Calibration
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 10000, max: 100000, current value: 41943.14 
+
+  EIFMaxFreqRF1    Maximum RF1
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 200, current value: 150.000 MHz
+
+  EIFMaxFreqRF2    Maximum RF2
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 200, current value: 150.000 MHz
+
+  EIFMinFreqRF1    Minimum RF1
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 200, current value: 0.500 MHz
+
+  EIFMinFreqRF2    Minimum RF2
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 200, current value: 0.500 MHz
+
+  ELDORFreqHigh    Maximum ELDOR Frequency
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 100, current value: 10.000000 GHz
+
+  ELDORFreqLow     Minimum ELDOR Frequency
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 100, current value: 9.100000 GHz
+
+  ESPDevAddrHigh   High Address Limit
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 255, current value: 0 
+
+  ESPDevAddrLow    Low Address Limit
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 255, current value: 0 
+
+  ESPDevIPList     Fixed IP List
+                   auxiliary
+                   String type, # of dim.: 0, SPL Keyword: -
+                   current value: all 
+
+  ESPDevSearchOn   Search for EWS Devices
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: True 
+                   list of discrete values:
+                     False, True
+
+  ESPDevTimeOut    IP Address Search Timeout
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 100, current value: 2 s
+
+  EasyEprPresent   EZ Epr Present
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  EmbGonioPresent  Emb Goniometer Present
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  EprCF12TMagnet   EPR CF 12T Magnet Present
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  Er032tMaxField   Maximum Field
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: -30, max: 40000, current value: 15000.00 G
+
+  Er032tMinField   Minimum Field
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: -40000, max: 2500, current value: -15000.00 G
+
+  Er032tOffset     Calibration Offset
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: -500, max: 500, current value: 0.00 G
+
+  Er032tSlope      Calibration Slope
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: -100, max: 100, current value: 0.00 G/kG
+
+  EwsMbcAttenLim   Attenuator Limit
+                   auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: 60 dB 
+                   list of discrete values:
+                     60 dB, 90 dB
+
+  EwsMbcAttenRes   Attenuator Resolution
+                   read-only, auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: 1 dB 
+                   list of discrete values:
+                     1 dB, 0.1 dB
+
+  EwsMbcDelayVal   Delay Value
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: -32768, max: 32768, current value: 0 
+
+  EwsMbcSource     Source Type
+                   read-only, auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: Gunn 
+                   list of discrete values:
+                     Gunn, Klystron
+
+  EwsMbcType       Type
+                   read-only, auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: Default 
+                   list of discrete values:
+                     Default, 125 Hz
+
+  EzVtuPresent     EZ VTU Present
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  FTBrChanName     Channel Name
+                   auxiliary
+                   Enumeration type, # of dim.: 2, sizes: 2, 4, SPL Keyword: -
+                   current value: - 
+                   list of discrete values:
+                     None, +x, -x, +y, -y, +<x>, -<x>, +<y>, -<y>, ELDOR
+
+  FTBrIFOption     IF Option
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: True 
+                   list of discrete values:
+                     False, True
+
+  FTBrLCWOption    LCW Option
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: True 
+                   list of discrete values:
+                     False, True
+
+  FTBrTMLevel      TM Level Option
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: True 
+                   list of discrete values:
+                     False, True
+
+  FTEifPresent     FT ENDOR Present
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  FTEndorAvail     FT Endor
+                   read-only, auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  FTExpActive      FT Experiment active
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  FTImgAvail       FT Imaging
+                   read-only, auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  FactPresetAWG    Read Factory Preset
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  FfAddress        IEEE488 Address
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 1, max: 30, current value: 3 
+
+  FfOffset         Calibration Offset
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: -50, max: 50, current value: 0.00 G
+
+  FfType           Type
+                   auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: None 
+                   list of discrete values:
+                     None, ER033M, ER033S
+
+  FrqCntrAddress   IEEE488 Address
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 1, max: 30, current value: 8 
+
+  FrqCntrType      Type
+                   auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: BRUKER 
+                   list of discrete values:
+                     None, MBC, BRUKER, HP5340A, HP5342A, HP5350A, HP5351A
+                     HP5352A, HP53150A, EIP545A, EIP548A, EIP625A, EIP628A
+
+  GmAddress        IEEE488 Address
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 1, max: 30, current value: 7 
+
+  GmModulation     Default Modulation
+                   read-only, auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: Positive 
+                   list of discrete values:
+                     Positive, Negative
+
+  GmOffset         Calibration Offset
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: -50, max: 50, current value: 0.00 G
+
+  GmType           Type
+                   auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: None 
+                   list of discrete values:
+                     None, ER035M
+
+  GonioCtrlLock    Goniometer Panel Lock
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  GoniometerType   Type
+                   auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: EMB_Goniometer 
+                   list of discrete values:
+                     None, SD_Goniometer, EMB_Goniometer
+
+  GradUnitAddress  IEEE488 Address
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 1, max: 30, current value: 15 
+
+  GradUnitCDbDel   Delete
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  GradUnitCDbLoad  Load
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  GradUnitCDbName  Data Set
+                   auxiliary
+                   String type, # of dim.: 0, SPL Keyword: -
+                   current value:  
+                   list of discrete values:
+                     <none>
+
+  GradUnitCDbSave  Save
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  GradUnitCalData  GradUnitCalData
+                   auxiliary
+                   Numeric type, # of dim.: 2, sizes: 3, 9, SPL Keyword: -
+                   min: -1.79769e+308, max: 1.79769e+308, current value: - 
+
+  GradUnitPrtAddr  GradUnitPrtAddr
+                   auxiliary
+                   Enumeration type, # of dim.: 2, sizes: 3, 1, SPL Keyword: -
+                   current value: - 
+                   list of discrete values:
+                     None, Port1, Port2, Port3, Port4
+
+  GradUnitType     Gradient Control Unit
+                   auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: None 
+                   list of discrete values:
+                     None, B-MC 20, B-MC 20 Ethernet, Micro Imaging Controller
+
+  HallUsage        Use Field Controller
+                   read-only, auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: Default 
+                   list of discrete values:
+                     Default, Imaging
+
+  HystPs5120En     Enable Linear Corr.
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  IPS120RSPresent  IPS120 RS232 Present
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: True 
+                   list of discrete values:
+                     False, True
+
+  InstCalibAWG     Instant Calibration Update
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  ItcPowerLimit    ITC Heater Power Limit
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 100, current value: 88.00 %
+
+  LoadCfg          Load
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  MMMaxCWTmLvl     Maximum CW TM Level
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 100, current value: 72.000 %
+
+  MMMaxPlsTmLvl    Maximum Pulse TM Level
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 100, current value: 72.000 %
+
+  MMWaveIFAttHi    MM-Band IF Attenuator High Pos.
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 4095, current value: 800 
+
+  MMWaveIFAttLo    MM-Band IF Attenuator Low Pos.
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 4095, current value: 0 
+
+  MMWaveLOFreq     MM-Band LO Frequency
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 1, max: 50, current value: 26.880000 GHz
+
+  MWAutoTuneAtten  Autotune Attenuation
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 15, max: 60, current value: 25.0 dB
+
+  MWCtrlSlct       Selected Microwave Control
+                   auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: CWMWCtrl 
+                   list of discrete values:
+                     NoMWCtrl, CWMWCtrl, FTMWCtrl, CWFTMWCtrl, CWFTPhMWCtrl
+                     CWFTDCMWCtrl, CWFTDCPhMWCtrl, LUPGCWMWCtrl, LUPGFTMWCtrl
+
+  MWFreqBand       Microwave Band
+                   auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: L-Band 
+                   list of discrete values:
+                     L-Band, S-Band, X-Band, K-Band, Q-Band, W-Band, MM-Band
+
+  MWFreqOffset     MBC Calibration Offset
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: -0.5, max: 0.5, current value: 0.000 GHz
+
+  MbceTuneMinAtt   Autotune Min. Attenuation
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 35, current value: 10.0 dB
+
+  MbctIsEws        EWS Mbct
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  MeasuringHall    Measuring Hall
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  NbOfPulses       Max Number Of Pulses
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 31, max: 1023, current value: 400 
+
+  OnlyAWGChans     OnlyAWGChans
+                   read-only, auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  PPConnStatMon    PP Connection Status
+                   read-only, auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: OK 
+                   list of discrete values:
+                     Not OK, OK,  Failed
+
+  PS5120TC1Mon     Cernox 1 Temp.
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 350, current value: 0.000 K
+
+  PS5120TC2Mon     Cernox 2 Temp.
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 350, current value: 0.000 K
+
+  PS5120TP1Mon     PT100 Temp.
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 350, current value: 0.000 K
+
+  PlsBridgeLock    Pulse Bridge Lock
+                   read-only, auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: True 
+                   list of discrete values:
+                     False, True
+
+  PlsPrgCalDbDel   Delete
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  PlsPrgCalDbLoad  Load
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  PlsPrgCalDbName  Data Set
+                   auxiliary
+                   String type, # of dim.: 0, SPL Keyword: -
+                   current value:  
+                   list of discrete values:
+                     <none>
+
+  PlsPrgCalDbSave  Save
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  PlsPrgDlyLen     Delays and Additional Lengths
+                   auxiliary
+                   Numeric type, # of dim.: 2, sizes: 2, 36, SPL Keyword: -
+                   min: 0, max: 999999, current value: - 
+
+  PlsPrgPDCHCon    PDCH Connector
+                   auxiliary
+                   Enumeration type, # of dim.: 2, sizes: 1, 36, SPL Keyword: -
+                   current value: - 
+                   list of discrete values:
+                     C1, B1/C2, A1, B2/C3, C4
+
+  PlsPrgPDCHNo     PDCH Board
+                   auxiliary
+                   Numeric type, # of dim.: 2, sizes: 1, 36, SPL Keyword: -
+                   min: 1, max: 16, current value: - 
+
+  PlsPrgTimeRstrs  Time Rasters
+                   auxiliary
+                   Enumeration type, # of dim.: 2, sizes: 1, 36, SPL Keyword: -
+                   current value: - 
+                   list of discrete values:
+                     Off, 1.0, 2.0, 4.0, [R] 20.0, [A] 0.625, [G] 15.0
+
+  Ps5120FieldMon   Current Field
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: -990000, max: 990000, current value: 20832.998 G
+
+  Ps5120Lock       Ps 5/120 Lock
+                   read-only, auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: True 
+                   list of discrete values:
+                     False, True
+
+  Ps5120ModeChg    Mode state
+                   read-only, auxiliary
+                   String type, # of dim.: 0, SPL Keyword: -
+                   current value: UNDEF  
+
+  PsMinGateTime    PS51X0 Minimum Gate Time
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 40.96, max: 5242.88, current value: 81.92 ms
+
+  QBridgeMonit     Q Band Bridge Monitoring
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: True 
+                   list of discrete values:
+                     False, True
+
+  RFDutyCycle      RF Duty Cycle
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 100, current value: 0.00 %
+
+  RateDetuneAWG    Rel. Rate Detuning
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: -100, max: 100, current value: 0.0 ppm
+
+  ResetCfg         Reset
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  RscCalib         RSC Calibration 50 G
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 1, current value: 0.20 
+
+  RscCalibw        RSC Calibration 200 G
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 1, current value: 0.20 
+
+  RscCoil          RSC Coil
+                   auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: 50 G 
+                   list of discrete values:
+                     50 G, 200 G
+
+  SCPrstFldOffs    Persistent Field Offset
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: -800, max: 800, current value: 0.000 G
+
+  SCPrstShimCur    Persistent Shim Current
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: -20, max: 20, current value: 0.000 A
+
+  SConConLock      SConConLock
+                   read-only, auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  SConCurTol       Main Magnet Current Tolerance
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0.001, max: 0.2, current value: 0.0500 A
+
+  SConDisConLock   SConDisConLock
+                   read-only, auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  SConDsrdField    Desired Field
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 60137, current value: 20832.998 G
+
+  SConHelOk        He Level > 55% ?
+                   read-only, auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  SConHighField    High Persistent Field
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 100000, current value: 50000.000 G
+
+  SConJmpCurrRate  Jump Current Rate
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0.001, max: 10000, current value: 50.000 A/min
+
+  SConLinearFile   High Linear. Data Name
+                   auxiliary
+                   String type, # of dim.: 0, SPL Keyword: -
+                   current value: linrz 
+                   list of discrete values:
+                     hilin
+
+  SConMMFpC        Main Magnet Field/Current
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 1, max: 1e+09, current value: 546.7000 G/A
+
+  SConMMInduct     Main Magnet Inductance
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 1, max: 10000, current value: 62.700 H
+
+  SConMMMaxCurr    Max. Main Magnet Current
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 1, max: 500, current value: 110.0 A
+
+  SConMMMaxVolt    Main Magnet Max. Voltage
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0.1, max: 100, current value: 3.00 V
+
+  SConMMResist     Main Magnet Resistance
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 1, max: 1000, current value: 20.00 mV/A
+
+  SConMMSweepOn    Main Magnet Connected
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  SConMagnetType   Type
+                   auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: IPS120RS 
+                   list of discrete values:
+                     IPS120, PS5120, IPS120RS
+
+  SConMainHeatMon  Main Heater
+                   read-only, auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: ON 
+                   list of discrete values:
+                     OFF, ON
+
+  SConMinHeLvl     Minimum Helium Level
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 500, current value: 175.0 
+
+  SConMinNLvl      Minimum Nitrogen Level
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 100, current value: 5.0 %
+
+  SConModeConf     Set Mode
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  SConPerstField   Persistent Field
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: -990000, max: 990000, current value: 20832.998 G
+
+  SConPs5120Mode   PS Mode
+                   read-only, auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: MAIN 
+                   list of discrete values:
+                     MAIN, SWEEP
+
+  SConPs5120Rem    PS Remote
+                   read-only, auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: DISABLED 
+                   list of discrete values:
+                     DISABLED, ENABLED
+
+  SConRTMFpC       RT Magnet Field/Current
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: -1e+09, max: 1e+09, current value: 25.9500 G/A
+
+  SConRTMMaxCurr   Max. RT Magnet Current
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 1, max: 500, current value: 34.0 A
+
+  SConRTMResist    RT Magnet Resistance
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 1, max: 1000, current value: 100.00 mV/A
+
+  SConRTMSweepOn   RT Magnet Connected
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  SConRemEn        Remote
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  SConSafCurrRate  Safe Current Rate
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0.001, max: 10000, current value: 20.000 A/min
+
+  SConSafSwCuRate  Safe Sweep Curr. Rate
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0.001, max: 100, current value: 100.000 A/min
+
+  SConSetField     Set
+                   read-only, auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  SConShCurTol     Shim Current Tolerance
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0.001, max: 0.2, current value: 0.0500 A
+
+  SConShHCurrent   Shim Heater Current
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 1, max: 1000, current value: 80.0 mA
+
+  SConShZHeatMon   Shim Z Heater
+                   read-only, auxiliary
+                   String type, # of dim.: 0, SPL Keyword: -
+                   current value: OFF 
+
+  SConShimSweepOn  Shim Coils Connected
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  SConShimZHeater  Shim Z Heater
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  SConStopField    Stop
+                   read-only, auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  SConSwCuRaHi     Sweep Curr. Rate Hi
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0.001, max: 100, current value: 20.000 A/min
+
+  SConSwHCurrent   Switch Heater Current
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 1, max: 1000, current value: 120.0 mA
+
+  SConSwMaxCuHi    Max. Magnet Curr. High
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 1, max: 500, current value: 20.0 A
+
+  SConSwResist     Supercon Switch Resistance
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0.1, max: 1000, current value: 5.000 V/A
+
+  SConVltTol       Main Magnet Voltage Tolerance
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0.001, max: 0.2, current value: 0.009 V
+
+  SEifPresent      Simple ENDOT Present
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  SaveCfg          Save
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  SctNorm          Normalize Acquisition
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: True 
+                   list of discrete values:
+                     False, True
+
+  SetupScanLock    Setup Scan Lock
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  ShapeDataText    User Shape Data
+                   auxiliary
+                   String type, # of dim.: 0, SPL Keyword: -
+                   current value:  -1.0, 1.0
+
+  ShapeDbDel       Delete
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  ShapeDbList      Shape
+                   auxiliary
+                   String type, # of dim.: 0, SPL Keyword: -
+                   current value: <nOne> 
+                   list of discrete values:
+                     <nOne>
+
+  ShapeDbLoad      Load
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  ShapeDbSave      Save
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  ShapeImport      Import File
+                   auxiliary
+                   String type, # of dim.: 0, SPL Keyword: -
+                   current value:  
+
+  ShapeToDisp      ShapeToDisp
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 1e+06, current value: 0 
+
+  ShapesByName     Sort List By Name
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  SpecJetLock      SpecJetLock
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  SptRecType       Type
+                   auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: SpecJet II 
+                   list of discrete values:
+                     SDI Board, SpecJet, SpecJet II
+
+  SpuIsMultOrd     SPU Mult.Ord.
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: True 
+                   list of discrete values:
+                     False, True
+
+  SpuPresent       SPU Present
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: True 
+                   list of discrete values:
+                     False, True
+
+  TempCtrlLock     Temperature Panel Lock
+                   read-only, auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  TrRecAddress     IEEE488 Address
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 1, max: 30, current value: 9 
+
+  TrRecType        Type
+                   auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: SpecJet II 
+                   list of discrete values:
+                     None, LeCroy 9400A, LeCroy 9450A, LeCroy 9300 Series
+                     LeCroy 7200 Series, LeCroy LT Series, SpecJet II
+
+  TwtDutyCycle     TWT Duty Cycle
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 100, current value: 0.0 %
+
+  TwtMaxGate       TWT Maximum Gate Time
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: -1.79769e+308, max: 1.79769e+308, current value: 0 ns
+
+  TwtMinGate       TWT Minimum Gate Time
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: -1.79769e+308, max: 1.79769e+308, current value: 0 ns
+
+  TwtRecTime       TWT Recovery Time
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: -1.79769e+308, max: 1.79769e+308, current value: 0 ns
+
+  UseAWGextRef     Use External Reference
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  UsesAWGChans     Uses AWG Channels
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  UsesHPExcChans   Uses High Power Channels
+                   auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: False 
+                   list of discrete values:
+                     False, True
+
+  Version          Device Firmware Versions
+                   read-only, auxiliary
+                   String type, # of dim.: 0, SPL Keyword: -
+                   current value: PatJet V1.54R7, SpecJetII 2.16, CWBr V0.9, Hall V0.9, SPUSC S3.2.32-E, SPUSC S3.2.32-E, SPUSC S3.2.32-E   
+
+  Void             Void
+                   auxiliary
+                   String type, # of dim.: 0, SPL Keyword: -
+                   current value:  
+
+  VtuAddress       IEEE488 Address
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 1, max: 30, current value: 24 
+
+  VtuDeriv         Derivative Time
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 100, current value: 0.00 s
+
+  VtuHeater        Heater
+                   read-only, auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: Heater 1 
+                   list of discrete values:
+                     Heater 1, Heater 2, Heater 3
+
+  VtuIntg          Integral Time
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 100, current value: 14.00 s
+
+  VtuOffset        Calibration Offset
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: -100, max: 100, current value: 0.00 K
+
+  VtuProp          Proportional Band
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 100, current value: 36.00 %
+
+  VtuRSPort        VTU RS232 Port
+                   auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: /dev/ttyS0 
+                   list of discrete values:
+                     /dev/ttyS0, /dev/ttyS1, /dev/ttyS2, /dev/ttyS3
+
+  VtuSensor        Heater Sensor
+                   read-only, auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: Sensor 1 
+                   list of discrete values:
+                     Sensor 1, Sensor 2, Sensor 3
+
+  VtuType          Type
+                   auxiliary
+                   Enumeration type, # of dim.: 0, SPL Keyword: -
+                   current value: None 
+                   list of discrete values:
+                     None, ER4111VT, ER4121VT, ER4131VT, VTU, ITC502, ITC503
+                     ITC503 RS-232, MercuryITC
+
+  WBandFreqOffset  Frequency Offset
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0, max: 200, current value: 84.499844 GHz
+
+  WBandPowerAt0dB  Power at 0 dB
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 0.01, max: 1000, current value: 5.00 mW
+
+DEVICE viewShape
+
+  Abs1Data         Abs1Data
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 1, sizes: 16383, SPL Keyword: -
+                   min: -3.40282e+38, max: 3.40282e+38, current value: - ns
+
+  Abs1Name         Abs1Name
+                   read-only, auxiliary
+                   String type, # of dim.: 0, SPL Keyword: -
+                   current value: Time 
+
+  Data             Data
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: -3.40282e+38, max: 3.40282e+38, current value: 0.0000000000000000e+00 
+
+  Data1            Data1
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 1, sizes: 16383, SPL Keyword: -
+                   min: -3.40282e+38, max: 3.40282e+38, current value: - 
+
+  DataRange        DataRange
+                   read-only, auxiliary
+                   Numeric type, # of dim.: 1, sizes: 2, SPL Keyword: -
+                   min: -1.79769e+308, max: 1.79769e+308, current value: -1.0000000000000000e+00, 2.0000000000000000e+00 
+
+  DualTrace        DualTrace
+                   read-only, auxiliary
+                   Boolean type, # of dim.: 0, SPL Keyword: -
+                   current value: True 
+                   list of discrete values:
+                     False, True
+
+  RealDataName     RealDataName
+                   read-only, auxiliary
+                   String type, # of dim.: 0, SPL Keyword: -
+                   current value: Ampl. 
+
+  ShapeToDisp      ShapeToDisp
+                   auxiliary
+                   Numeric type, # of dim.: 0, SPL Keyword: -
+                   min: 10, max: 1e+06, current value: 10 
+
